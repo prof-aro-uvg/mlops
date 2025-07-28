@@ -12,9 +12,9 @@ body {
     color: #333;
 }
 
-/* Encabezado y banner de navegación */
+/* Encabezado y banner de navegación en tonos verdes */
 header {
-    background-color: #2e7d32; /* verde oscuro */
+    background-color: #2e7d32; /* Verde oscuro */
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -24,7 +24,7 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    background-color: #388e3c; /* verde medio */
+    background-color: #388e3c; /* Verde medio */
     flex-wrap: wrap;
 }
 
@@ -42,7 +42,19 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #66bb6a; /* verde claro al pasar el mouse */
+    background-color: #66bb6a; /* Verde claro al pasar el mouse */
+}
+
+/* Contenido para Listas Secundarias */
+.content-list {
+    list-style-type: square;
+    padding-left: 20px;
+    color: #2e7d32;
+    font-size: 1.0em;
+}
+
+.content-list li {
+    margin-bottom: 8px;
 }
 
 /* Contenido principal */
@@ -58,16 +70,16 @@ main {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #2e7d32; /* verde oscuro */
+    background-color: #2e7d32;
     color: white;
     position: relative;
     bottom: 0;
     width: 100%;
 }
 
-/* Barra inferior adicional */
+/* Barra inferior personalizada */
 .footer-bar {
-    background-color: #388e3c; /* verde medio */
+    background-color: #388e3c;
     color: white;
     text-align: center;
     padding: 10px;
